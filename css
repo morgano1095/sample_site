@@ -1,0 +1,162 @@
+body { background: #ffffff; background-image: url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg); color: #666666; font-family:"Arial, Helvectia, Sans-Serif"; }
+h1 { color: #000033; margin-bottom: 0; background:#ffffff url("http://www.climate-and-freshwater.info/img/content/river_meandering.jpg")  top right no-repeat; padding: 15px; font-family:"Serif, Times New Roman, Serif"; }
+#nav { float: left; width: 150px; padding-left: 30px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; font-weight: bold; }
+  #nav ul { list-style-type: none; margin: 0; padding-left: 0; font-size: 1.2em; }
+  #nav a { text-decoration: none; }
+    #nav a:link { color: #000033; }
+    #nav a:visited { color: #344873; }
+    #nav a:hover { color: #666666; }
+h2 { color: #339cc; font-family:"Georgia, Times New Roman, Serif"; text-shadow: 2px 2px 2px #ccc; }
+dt { color: #000033; }
+.resort { color: #5c7fa3; font-weight: bold; }
+h3 { color: #000033; font-family:"Serif, Times New Roman, Serif"; }
+ul {list-style-image:
+  url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/91758/marker.gif); }
+#wrapper { width: 10%; min-width: 1300px; background: #90C7E3; box-shadow: 10px 15px 50px #000033; }
+#content { background: #ffffff; padding-top: 10px; padding-left: 30px; padding-right: 25px; padding-bottom: 220px; margin-left: 150px;}
+  #content img { float:left; padding-right: 20px; }
+  #content ul { list-style-position: inside; }
+#contact { font-size: 80%; }
+footer { font-style: italic; font-family:" Georgia, Times New Roman, Times, Serif"; padding: 20px; font-size: 80%; margin-left: 180px; background-color: #000033;  }
+
+ul.image-set {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+  list-style: none;
+  background: #f3f3f3;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  transition: background 1s, border-color .5s .5s;
+  -webkit-transition: background 1s, border-color .5s .5s
+}
+
+ul.image-set:hover {
+  border-color: #a7b;
+  background: #fff
+}
+
+ul.image-set:hover li {
+  width: 0%;
+  opacity: 0;
+  padding: 0
+}
+
+ul.image-set li {
+  float: left;
+  width: 25%;
+  padding: 1.8em;
+  transition: width .3s .5s, opacity .3s .5s, padding .3s .5s
+}
+
+ul.image-set li:hover {
+  width: 80%;
+  opacity: 1;
+  background: #eee
+}
+
+ul.image-set li img {
+  width: 130%;
+  vertical-align: middle;
+}
+
+body{
+  padding:50px 0px 50px 0px;
+  -webkit-font-smoothing: antialiased;
+  
+}
+
+
+.fly{
+  -webkit-transform:translateX(-200px);
+    -webkit-transition:0.4s;
+  -moz-transition:0.4s;
+  -o-transition:0.4s;
+  -ms-transition:0.4s;
+  transition:0.4s;
+}
+
+.flyIn{
+  -webkit-transform:translateX(0px);
+    -webkit-transition:0.4s;
+  -moz-transition:0.4s;
+  -o-transition:0.4s;
+  -ms-transition:0.4s;
+  transition:0.4s;
+}
+
+.col-md-4:hover{
+  background:#f7f7f7;
+  -webkit-transition:0.4s;
+  -moz-transition:0.4s;
+  -o-transition:0.4s;
+  -ms-transition:0.4s;
+  transition:0.4s;
+  -webkit-transform:translateX(20px);
+  -moz-transform:translateX(20px);
+  -o-transform:translateX(20px);
+  -ms-transform:translateX(20px);
+  transform:translateX(20px);
+  position:relative;
+  z-index:5000;
+}
+
+.post:hover{
+text-decoration:none;
+}
+
+.fa{
+  margin-right:5px;
+}
+
+.col-md-4{
+  height:auto;
+  overflow:hidden;
+  background:#fffaf0;
+  border:1px solid #1e2328;
+  position:relative;
+  z-index:0;
+  .inner{
+    padding:20px;
+    .category{
+      color:#F26743;
+      font:900 13px Lato;
+      text-transform:uppercase;
+    }
+    .date{
+      font:900 13px Lato;
+      color:#9b9eab;
+      margin-left:5px;
+    }
+    h2{
+      font:900 24px Lato;
+      text-transform:uppercase;
+      margin-bottom:18px;
+      color:#fff;
+    }
+    p{
+      font:400 14px Lato;
+      line-height:22px;
+      color:#9b9eab;
+    }
+    
+    .read-more{
+      color:#F26743;
+      display:block;
+      font:900 13px Lato;
+      position:relative;
+      text-transform:uppercase;
+    }
+    
+    .read-more:hover{
+      text-decoration:none;
+    }
+  }
+}
+
+a:active,a:focus{
+  color:#F26743;
+  text-decoration:none;
+}
+#success_message{ display: none;}
