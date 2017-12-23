@@ -7,7 +7,7 @@
     <title>WELCOME</title>
 </div>
 
-<div style="position:fixed;top:0px;right:0px;"><p>Morgan Friedlander <br> CTEC471 </p> </div>
+<div style="position:fixed;top:0px;right:0px;"><p>Morgan Friedlanders <br> test site </p> </div>
   </head>
 
 
@@ -29,13 +29,13 @@
    <ul><a href="blog.html">Blog</a></ul>  
    <ul><a href="news.html">News</a></ul> 
    <ul><a href="contact.html">Contact</a></ul>
-<ul><a href="about.html">About</a></ul>
+<ul><a href="about.html">About</a></ul> 
    <ul><a href="media.html">Media</a></ul></ul></div>
 
 
 
   <div id= "content"> <h2>LETS TALK LAND ROVER</h2>
-    <img src="https://www.landrover.com/Images/L494_GWS_17_EXT_LOC60_680x450_281-303755_680x450.jpg?v=4" alt="Rover picture" height= 280px width=400px / >
+    <img src="http://www.landroverseattle.com/wp-content/themes/DealerInspireDealerTheme/images/welcome-bg.jpg" alt="Rover picture" height= 280px width=400px / >
    <dt><div><dl><strong>Why own a Land Rover?</strong>
      <dd>The year is 1947. A man sketches the silhouette of a car in the sand of a Welsh beach. That car is the Land Rover. Tough, intrepid, it goes on to change history, mastering all manner of terrain and capturing hearts around the world.  </dd>
    <strong>When was the Brand established?</strong>
